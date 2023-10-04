@@ -26,6 +26,11 @@ const routes: Routes = [
           import('./views/dashboard/dashboard.module').then((m) => m.DashboardModule)
       },
       {
+        path: 'requirement',
+        loadChildren: () =>
+          import('./views/requirement/requirement-list/requirement-list.module').then((m) => m.RequirementListModule)
+      },
+      {
         path: 'theme',
         loadChildren: () =>
           import('./views/theme/theme.module').then((m) => m.ThemeModule)

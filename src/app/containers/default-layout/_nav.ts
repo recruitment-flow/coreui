@@ -11,6 +11,15 @@ export const navItems: INavData[] = [
     }
   },
   {
+    name: 'Requirement',
+    url: '/requirement',
+    iconComponent: { name: 'cil-description' },
+    // badge: {
+    //   color: 'info',
+    //   text: 'NEW'
+    // }
+  },
+  {
     title: true,
     name: 'Theme'
   },
