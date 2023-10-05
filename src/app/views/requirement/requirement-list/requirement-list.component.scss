@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+  }
+  body {
+    height: 100vh;
+  }
+  .middle-container {
+    padding: 10px;
+    background-color: rgb(236, 234, 234);
+  }
+  .middle-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .butn {
+    background-color: rgb(83, 83, 226);
+    color: white;
+    border: 1px solid gray;
+  }
+  .cancelButton {
+    border: none;
+    background-color: transparent;
+  }
+  .dropdown {
+    background-color: rgb(236, 237, 237);
+    width: 25%;
+    border: 1px solid rgb(213, 210, 210);
+  }
+  .header {
+    background-color: rgb(30, 30, 135);
+    padding: 20px;
+  }
+  .footer {
+    background-color: rgb(30, 30, 135);
+    padding: 35px;
+  }
+  .logo {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin-right: 20%;
+  }
+  .inner-container {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+  }
+  .button {
+    border: none;
+    background-color: transparent;
+    color: aliceblue;
+  }
+  .input {
+    background-color: rgb(236, 237, 237);
+    border: 1px solid rgb(213, 210, 210);
+  }
+  .innerDetails {
+    padding: 10px;
+  }
+  .input {
+    width: 80px;
+    height: 14px;
+  }
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .payrate {
+    background-color: rgb(245, 247, 247);
+    padding: 2px;
+  }
+  
+  .checkboxx {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+  .option {
+    padding: 5px;
+    font-weight: 100;
+  }
+  .one {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .item {
+    width: 30%;
+    padding: 10px;
+  }
+  .two {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .three {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .four {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .five {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .select {
+    min-height: 35px;
+    max-width: 100px;
+    border-radius: 3px;
+    margin: 2px;
+    border-color: rgb(190, 190, 190);
+  }
+  .selectmain {
+    min-height: 35px;
+    min-width: 220px;
+    border-radius: 3px;
+    margin: 2px;
+    border-color: rgb(190, 190, 190);
+  }
+  .inputfield {
+    max-width: 100px;
+    min-height: 37px;
+    border-radius: 3px;
+    border-color: 1px solid rgb(205, 205, 205) !important;
+  }
+  .boot {
+    font-weight: bold;
+    margin-top: 4%;
+  }
+  
