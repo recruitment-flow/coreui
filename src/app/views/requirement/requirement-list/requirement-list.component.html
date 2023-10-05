@@ -1,1 +1,17 @@
-<p>requirement-list works!</p>
+<form [formGroup]="requirementForm" (ngSubmit)="onSubmit()" class="requirement-form">
+    <div class="form-group">
+      <label for="title">Title<span>*</span></label>
+      <input type="text" id="title" formControlName="title" class="form-control" placeholder="Enter title" required>
+    </div>
+  
+    <div class="form-group">
+      <label for="description">Description</label>
+      <textarea id="description" formControlName="description" class="form-control" placeholder="Enter description"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="description1">Description</label>
+        <textarea id="description1" formControlName="description1" class="form-control" placeholder="Enter description1"></textarea>
+      </div>
+  
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
